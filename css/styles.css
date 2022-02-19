@@ -1,0 +1,185 @@
+body {
+    font-family:  "Montserrat";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat";
+}
+
+p,a {
+    font-family: 'Ubuntu';
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+ /* headings */
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.big-header {
+    font-size: 3.2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+/* section */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* navbar - section */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* buttons */
+
+.btn1 {
+    margin: 5% 3% 5% 0;
+}
+
+/* title - section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left; 
+}
+
+/* title image */
+
+.img1 {
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;  
+    z-index: 0;
+    right: 23.5% ;
+}
+
+/* features - section */
+
+#features {
+   position: relative;
+   z-index: 1;
+}
+
+.icon1 {
+    font-size: 3rem;
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+
+.icon1:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-size: 1rem;
+}
+
+.feature-box p {
+    color: #AFAFAF;
+}
+
+/* testimonials - section */
+
+#testimonials {
+    text-align: center;
+    background-color: #EF8172;
+}
+
+.testimonials-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.img2 {
+    width: 10%;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+/* press - section */
+
+#press {
+    background-color: #EF8172;
+    padding-bottom: 3%;
+}
+
+.press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing - section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* Call to Action - section */
+
+
+
+/* Footer - section */
+
+.foot-link {
+    padding: 1rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+@media (max-width:1028px) {
+    .img1 {
+        position: static;
+        transform: rotate(0);
+        margin-top: 15px;
+    }
+
+    #title  {
+        text-align: center;
+    }
+}
+
+
